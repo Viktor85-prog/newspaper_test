@@ -3,7 +3,8 @@ body {
 	height: 580px;
 	margin: 0 auto;
 	border: 1px solid black;
-	font-size: 15px;
+	font-size: 14px;
+	font-family: LiberationSans, sans-serif;
 }
 
 /* table {
@@ -33,8 +34,17 @@ td {
 
 .newspaper__left_poster{
 	height: 241px;
+	position: relative;
 }
-
+.newspaper__poster-text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	background-color: black;
+	font-size: 18px;
+    padding: 5px;
+}
 .newspaper__right {
 	width: 230px;
 	float: left;
@@ -48,15 +58,16 @@ td {
 	/* border: 1px solid black; */
 }
 .newspaper__cards {
-	height: 210px;
+	height: 219px;
 	padding: 10px;
 }
 .newspaper__footer {
 	float: left;
 	/* margin-top: 10px; */
-	border-top: 1px solid grey;
+	border-top: 1px solid #dadada;
 	padding: 5px;
-    font-size: 11.5px;
+    font-size: 11px;
+	background-color: #dadada;
 }
 
 .card {
@@ -91,13 +102,16 @@ td {
 }
 
 .grey {
-	color: grey;
+	color: #515151;
 }
 
 .bold {
 	font-weight: bold;
 }
 
+.fz-12{
+	font-size: 12px;
+}
 .newspaper__right_news {
 	height: 145px;
     border: 1.5px solid black;
@@ -105,10 +119,11 @@ td {
     border-bottom-right-radius: 5px;
 } 
 .newspaper__news {
-    height: 78px;
+    height: 81px;
     padding: 8px;
 }
 
 .newspaper__right_poster{
 	height: 114px;
+	position: relative;
 }
