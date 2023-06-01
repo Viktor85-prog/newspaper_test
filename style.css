@@ -1,24 +1,17 @@
 body {
 	width: 775px;
 	height: 580px;
-	margin: 0 auto;
+	margin-top: 20px;
+	/* margin: 0 auto; */
+	margin-left: auto;
+	margin-right: auto;
 	border: 1px solid black;
 	font-size: 14px;
 	font-family: LiberationSans, sans-serif;
 }
 
-/* table {
-	border: 0;
-}
-
-td {
-	padding: 10px;
-	vertical-align: top;
-	border: none;
-} */
-
 .newspaper {
-	height: 530px;
+	height: 540px;
 	margin: 20px;
 	padding: 10px;
 	border: 1px solid gray;
@@ -51,23 +44,22 @@ td {
 }
 
 .newspaper__posts {
-	height: 287px;
-	border: 1.5px solid black;
+	height: 275px;
+	border: 1px solid black;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	/* border: 1px solid black; */
 }
 .newspaper__cards {
-	height: 219px;
+	height: 220px;
 	padding: 10px;
 }
 .newspaper__footer {
 	float: left;
-	/* margin-top: 10px; */
-	border-top: 1px solid #dadada;
+	line-height: 14px;
+	border-top: 1px solid #b3b3b3;
 	padding: 5px;
     font-size: 11px;
-	background-color: #dadada;
+	background-color: #efefef;
 }
 
 .card {
@@ -86,19 +78,29 @@ td {
 }
 
 .card__request{
-	font-size: 13px;
+	font-size: 11px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+}
+.card__request img {
+	margin-right: 5px;
+	padding-top: 0.7px;
 }
 
 .mr-10 {
 	margin-right: 10px;
 }
 
-.mr-5 {
+/* .mr-5 {
 	margin-right: 5px;
-}
+} */
 
 .mb-8 {
 	margin-bottom: 8px;
+}
+
+.mb-5 {
+	margin-bottom: 5px;
 }
 
 .grey {
@@ -112,15 +114,19 @@ td {
 .fz-12{
 	font-size: 12px;
 }
+
+.lh-1 {
+	line-height: 1;
+}
 .newspaper__right_news {
-	height: 145px;
-    border: 1.5px solid black;
+	height: 140px;
+    border: 1px solid black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 } 
 .newspaper__news {
     height: 81px;
-    padding: 8px;
+    padding: 7px;
 }
 
 .newspaper__right_poster{
